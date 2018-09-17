@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    box-sizing: border-box;
+    font-family:"微软雅黑","苹方";
+}
+body{
+    background-color: #e5e7ec;
+}
+header>nav{
+    height: 0.87rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.01rem solid #b2b2b2;
+    border-bottom: 0.01rem solid #b2b2b2;
+    background-color: #FFFFFF;
+}
+.h-tit{
+    padding: 0 0.1rem;
+    border-right: 0.01rem solid #e4e4e4;
+    margin-right: 0.2rem;
+    font-size: 0.3rem;
+    color: #39393b;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.logo{
+    margin-left: 0.18rem;
+}
+.logo>img{
+    width: 0.56rem;
+}
+.phone{
+    width: 0.85rem;
+}
+.phone>img{
+    width: 0.45rem;
+}
+.h-banner{
+    margin-top: 0.04rem;
+}
+.h-banner img{
+    width: 100%;
+}
+section{
+
+}
+#section-P1{
+    padding: 0 0.2rem;
+    background-color: #FFFFFF;
+}
+.recommend{
+    overflow: hidden;
+}
+.r-head h1{
+    text-align: center;
+    margin-top: 0.8rem;
+    font-size: 0.44rem;
+    color: #46535d;
+}
+p{
+    text-align: left;
+    margin-top: 0.44rem;
+    text-indent: 2em;
+    font-size: 0.24rem;
+    color: #5a6670;
+}
+.r-body{
+    margin-top: 0.3rem;
+}
+.r-body>img{
+    width: 100%;
+}
+.applyFor{
+    padding-bottom: 0.6rem;
+}
+.applyFor h1{
+    text-align: center;
+    font-size: 0.3rem;
+    color: #f8574b;
+    font-weight: bold;
+    margin-top: 0.6rem;
+}
+.applyFor input{
+    margin: 0.3rem 0;
+    height: 0.8rem;
+    font-size: 0.28rem;
+    text-align: center;
+    color: #cbcbce;
+    background-color: #fff;
+    border: 0.02rem solid #bcc2c6;
+    border-radius: 0.2rem;
+    width: 100%;
+}
+input::placeholder{
+    color: #cbcbce;
+}
+.applyFor>div{
+    margin: auto;
+    width: 3.12rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 0.28rem;
+    background-color: #f8574b;
+    color: #fff;
+    border-radius: 0.4rem;
+}
+#section-P2{
+    padding: 0 0.2rem;
+
+}
+.moreInformation{
+    padding-bottom: 0.6rem;
+}
+.moreInformation h1{
+    margin-top: 0.8rem;
+    margin-bottom: 0.44rem;
+    text-align: center;
+    font-size: 0.42rem;
+    color: #46535d;
+}
+.mI-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.44rem;
+}
+.mI-body img{
+    width: 2.22rem;
+    height: 3.36rem;
+}
+.mI-formation,.mC-pay{
+    margin: auto;
+    width: 3.12rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 0.3rem;
+    background-color: #f8574b;
+    color: #fff;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 4px rgba(200,22,36,0.3);
+}
+.moreCompensation{
+    padding-bottom: 0.6rem;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.moreCompensation h1{
+    margin-top: 0.8rem;
+    margin-bottom: 0.44rem;
+    text-align: center;
+    font-size: 0.42rem;
+    color: #46535d;
+}

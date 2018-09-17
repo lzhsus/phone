@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="images/logo.png"></div>
+            <div class="h-tit">北大青鸟【官方制定学校】--UI设计师课堂</div>
+            <div class="phone"><img src="images/phone.png"></div>
+        </nav>
+        <div class="h-banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/banner.jpg"></div>
+                    <div class="swiper-slide"><img src="images/banner.jpg"></div>
+                    <div class="swiper-slide"><img src="images/banner.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+<section>
+   <div id="section-P1">
+       <div class="recommend">
+           <div class="r-head">
+               <h1>什么是UI设计？</h1>
+               <p>UI即User Interface用户界面的简称。UI设计是对软件的人机交互、操作逻辑、界面美观
+                   的整体设计。好的UI设计不仅是让软件变得有个性有品位，还要让软件的操作变得舒
+                   适简单、自有，充分体现软件的定位和特点。</p>
+           </div>
+           <div class="r-body">
+               <img src="images/3im_01.png">
+           </div>
+       </div>
+       <div class="applyFor">
+           <h1>我们只培养了解用户需求<br>和具备产品意识的复合型UI设计师</h1>
+           <input type="text" placeholder="请输入你的手机号码申请免费试听">
+           <div>立即申请试听</div>
+       </div>
+   </div>
+    <div id="section-P2">
+        <div class="moreInformation">
+            <div>
+                <h1>学UI，给自己一个高新的未来</h1>
+            </div>
+            <div class="mI-body">
+                <div><img src="images/biao01.png"></div>
+                <div><img src="images/biao02.png"></div>
+                <div><img src="images/biao03.png"></div>
+            </div>
+            <div class="mI-formation">点我了解更多资讯</div>
+        </div>
+    </div>
+    <div id="section-P3">
+        <div class="moreCompensation">
+            <div>
+                <h1>一次改变胜过犹豫不决</h1>
+            </div>
+            <div class="mC-body">
+                <table>
+                    
+                </table>
+            </div>
+            <div class="mC-pay">
+                点我了解更多薪资
+            </div>
+        </div>
+    </div>
+</section>
+<footer></footer>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="js/swiper.js"></script>
+<script>
+    // 获取当前设备的分辨率
+    var myWidth=window.screen.width;
+    // 设置根节点
+    var rem=myWidth/720*100;
+    document.getElementsByTagName("html")[0].style.fontSize=rem+"px";
+
+    window.onresize=function(){
+        // 获取当前设备的分辨率
+        var myWidth=window.screen.Width;
+        // 设置根节点
+        var rem=myWidth/720*100;
+        document.getElementsByTagName("html")[0].style.fontSize=rem+"px";
+    }
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay:true,//等同于以下设置
+        loop:true,
+    });
+</script>
